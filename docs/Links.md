@@ -5,4 +5,4 @@
   
 # Backend
 1. [Распознавание эмоций по изображению](https://github.com/thoughtworksarts/EmoPy)
-2. [Распознавание пола и возраста: https](//github.com/mowshon/age-and-gender)
+2. [Распознавание пола и возраста](https://github.com/mowshon/age-and-gender)
