@@ -1,4 +1,4 @@
-package com.test.fuckedcoursech.di.modules;
+package com.test.course.di.modules;
 
 import dagger.Binds;
 import dagger.Module;

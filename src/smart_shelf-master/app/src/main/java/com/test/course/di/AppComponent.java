@@ -1,10 +1,12 @@
-package com.test.fuckedcoursech.di;
+package com.test.course.di;
 
 import android.app.Activity;
-import com.test.fuckedcoursech.di.modules.NetworkModule;
-import com.test.fuckedcoursech.di.modules.RepositoryModule;
+
+import com.test.course.di.modules.NetworkModule;
+import com.test.course.di.modules.RepositoryModule;
 
 import javax.inject.Singleton;
+
 import dagger.Component;
 
 @Singleton

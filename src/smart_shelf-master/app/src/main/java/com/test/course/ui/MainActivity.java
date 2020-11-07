@@ -1,10 +1,10 @@
-package com.test.fuckedcoursech.ui;
+package com.test.course.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.test.fuckedcoursech.R;
+import com.test.course.R;
 
 public class MainActivity extends AppCompatActivity {
 

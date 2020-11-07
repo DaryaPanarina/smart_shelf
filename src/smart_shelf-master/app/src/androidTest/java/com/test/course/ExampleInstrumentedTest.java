@@ -1,4 +1,4 @@
-package com.test.fuckedcoursech;
+package com.test.course;
 
 import android.content.Context;
 
@@ -7,8 +7,6 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -21,6 +19,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.test.fuckedcoursech", appContext.getPackageName());
+        assertEquals("com.test.course", appContext.getPackageName());
     }
 }

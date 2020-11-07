@@ -1,9 +1,9 @@
-package com.test.fuckedcoursech.ui;
+package com.test.course.ui;
 
 import android.app.Application;
 
-import com.test.fuckedcoursech.di.AppComponent;
-import com.test.fuckedcoursech.di.DaggerAppComponent;
+import com.test.course.di.AppComponent;
+//TODO: ОТКУДА ЭТОТ КЛАСС? import com.test.course.di.DaggerAppComponent;
 
 public class App extends Application {
 

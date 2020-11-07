@@ -1,13 +1,13 @@
-package com.test.fuckedcoursech.di.modules;
+package com.test.course.di.modules;
 
 import com.google.gson.Gson;
-import com.test.fuckedcoursech.data.api.UserApi;
+import com.test.course.data.api.UserApi;
 import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import static com.test.fuckedcoursech.data.ApiParams.BASE_URL;
+import static com.test.course.data.ApiParams.BASE_URL;
 
 @Module
 public class NetworkModule {
