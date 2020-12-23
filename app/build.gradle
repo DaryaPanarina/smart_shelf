@@ -8,7 +8,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.test.fuckedcoursech"
+        applicationId "com.test.coursech"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -85,6 +85,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
     // Saved state module for ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycleVersion"
+
+    implementation 'com.jjoe64:graphview:+'
 
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test:rules:1.3.0'

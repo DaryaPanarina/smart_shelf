@@ -1,4 +1,4 @@
-package com.test.fuckedcoursech;
+package com.test.coursech;
 
 import org.junit.Test;
 

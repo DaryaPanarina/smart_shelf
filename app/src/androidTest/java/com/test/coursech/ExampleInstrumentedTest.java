@@ -1,4 +1,4 @@
-package com.test.fuckedcoursech;
+package com.test.coursech;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.test.fuckedcoursech", appContext.getPackageName());
+        assertEquals("com.test.coursech", appContext.getPackageName());
     }
 }
