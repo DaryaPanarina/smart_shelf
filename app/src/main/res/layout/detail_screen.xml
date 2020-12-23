@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/price"
+            android:layout_alignTop="@+id/preview"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/preview"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/preview"
+            android:layout_alignBottom="@+id/preview"
+            android:gravity="end"
+            />
+
+        <TextView
+            android:id="@+id/countLastUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/preview"
+            />
+
+        <TextView
+            android:id="@+id/appraisal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/countLastUser"
+            />
+
+        <TextView
+            android:id="@+id/mainGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/appraisal"
+            />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/activity"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_below="@+id/mainGender"
+            android:layout_marginTop="16dp"
+            android:accessibilityPaneTitle="@string/app_name"
+            />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/appraisalAll"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_below="@+id/activity"
+            android:layout_marginTop="16dp"
+            />
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
